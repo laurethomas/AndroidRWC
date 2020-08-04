@@ -14,9 +14,10 @@ public class Input {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     
+     System.out.print("How old are you?");
+     
     int number = input.nextInt();
     
-    System.out.print("The user's input was 34");
     input.close();
     }
     

@@ -13,15 +13,16 @@ public class UnaryOperator {
         double number = 5.2, resultNumber;
         boolean flag = false;
         
-        System.out.println("+number = " + +number);
-        // number is equal to 5.2 here.
+        System.out.println("Number = " + +number);
         
-        // number is equal to -5.2 here.
+        // Number = 5.2 here.
         
-        //number is equal to 6.2 here.
+        // Number = -5.2 here.
         
-        //number is equal to 5.2 here.
+        // Number = 6.2 here.
         
-        //flag is still false.
+        // Number = 4.2 here.
+        
+        // Flag is true.
     }
 }

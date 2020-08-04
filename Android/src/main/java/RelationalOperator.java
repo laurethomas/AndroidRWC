@@ -10,14 +10,8 @@
  */
 public class RelationalOperator {
    public static void main(String[] args) {
-       int test = 10;
-       
-       if (test > 8) {
-           System.out.println("10 is greater than 8");
-       }
+       int test = 10, quiz = 30;
       
-       int quiz = 30;
-       
        if (quiz < test) {
            System.out.println("Quiz is less than test");
        } else {

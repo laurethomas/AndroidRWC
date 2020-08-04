@@ -18,6 +18,8 @@ public class Input {
      
     int number = input.nextInt();
     
+    System.out.print("You entered " + number);
+    
     input.close();
     }
     

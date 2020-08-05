@@ -10,37 +10,38 @@
  */
 public class Days {
     public static void main(String[] args) {
-    int myNum = 4;
-   
+    int Week = 4;
+    String day;
     
-    switch (myNum) {
+    switch (Week) {
         case 1:
-          System.out.println("The day is Monday");
+          System.out.println("Monday");
           break;
           
         case 2:
-          System.out.println("The day is Tuesday");
+          System.out.println("Tuesday");
           break;
           
         case 3: 
-          System.out.println("The day is Wenesday");
+          System.out.println("Wenesday");
           break;
           
         case 4:
-          System.out.println("The day is Thursday");
+          System.out.println("Thursday");
           break;
           
         case 5:
-          System.out.println("The day is Friday");
+          System.out.println("Friday");
           break;
           
         case 6:
-          System.out.println("The day is Saturday");
+          System.out.println("Saturday");
           break;
           
         case 7: 
-          System.out.println("The day is Sunday");
+          System.out.println("Sunday");
           break; 
     }
+     System.out.println("The day is Thursday");
 }
 }
